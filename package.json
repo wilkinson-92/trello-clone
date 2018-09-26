@@ -10,10 +10,16 @@
     "react-scripts": "1.1.4",
     "redux-logger": "^3.0.6"
   },
+  "homepage": "http://wilks-92.github.io/myapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
   }
 }
