@@ -36,4 +36,4 @@ Middleware
 redux-logger create logger (illustrates state changes in store before/after snapshots.)
 
 -------------
-This project is viewable on github pages, view here: https://wilks-92.github.io/boards
+This project is published on github pages, view here: https://wilks-92.github.io/trello-clone/
