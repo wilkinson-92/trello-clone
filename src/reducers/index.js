@@ -261,10 +261,11 @@ function application ( state = {
 
         //make a shallow copy of boards
         const boards = [...state.boards];
-
+        
         //update boards at board index
-        boards[board.listIndex] = board;
+        boards[board.index] = board;
 
+       
         //update state
         return Object.assign({}, state, {
             activeBoard : board,

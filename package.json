@@ -10,7 +10,7 @@
     "react-scripts": "1.1.4",
     "redux-logger": "^3.0.6"
   },
-  "homepage": "http://wilks-92.github.io/myapp",
+  "homepage": "http://wilks-92.github.io/trello-clone",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
