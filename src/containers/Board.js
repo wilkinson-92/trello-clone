@@ -70,8 +70,6 @@ class Board extends Component {
 
     const {dispatch} = this.props;
 
-    console.log('REMOVE LIST INDEX: ' + index);
-
     dispatch(removeListAction(index));
 
   }
